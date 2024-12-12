@@ -1,0 +1,129 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "177582c5-f0ec-4e8c-ad8a-93c509767bc4")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "- 6x Potentiometers\n- Each Pot needs a light (Upside Down LED 6028)"
+		(exclude_from_sim no)
+		(at 177.8 92.71 0)
+		(size 52.07 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "10c881b9-7b5d-43e7-845c-d6cc5d26bada")
+	)
+	(text_box "- USBC Input\n- Ferrite Bead (Filtering)\n- Large Cap (Filtering)\n- ESD Prot\n- 5V LDO (LEDS)\n- 3V3 LDO (Switches & MCU)"
+		(exclude_from_sim no)
+		(at 30.48 35.56 0)
+		(size 33.02 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "37ccbcee-32f8-4c1e-91dd-d3c110608f34")
+	)
+	(text_box "- Wroom32\n- Exposed All Usable Pins\n- Warnings on pins for Booting up\n- Warnings on input only pins\n- Section off integrated protocals"
+		(exclude_from_sim no)
+		(at 165.1 41.91 0)
+		(size 36.83 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3d4c559e-af4e-468e-a217-f08e179cab44")
+	)
+	(text_box "- 15x Kailh Hotswap Sockets\n- Addressable LED included within switch footprint (Led 6028)"
+		(exclude_from_sim no)
+		(at 34.29 104.14 0)
+		(size 64.77 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "847dde10-1d09-43c1-a261-336e78b1e437")
+	)
+	(text "Port & Power & Power filtering"
+		(exclude_from_sim no)
+		(at 45.466 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "108cbe93-cb83-4609-b7eb-10a0315a05c8")
+	)
+	(text "Wroom32"
+		(exclude_from_sim no)
+		(at 171.196 37.592 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "211c189b-9065-479d-8a53-11e9e5ff54b1")
+	)
+	(text "Potentiometers"
+		(exclude_from_sim no)
+		(at 188.722 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a544f164-fc24-4c1f-84bb-6878c0dadf2b")
+	)
+	(text "Hotswappable Switches"
+		(exclude_from_sim no)
+		(at 47.498 102.108 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd2a96d8-ea0b-467a-9a1d-c5903ea07028")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
